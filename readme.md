@@ -6,21 +6,21 @@ Proyek ini bertujuan untuk mendemonstrasikan kemampuan pengembangan aplikasi ful
 
 ✨ Fitur Utama
 
-Perhitungan Akurat: Menggunakan rumus Mifflin-St Jeor untuk BMR, yang dianggap lebih akurat dibandingkan rumus lama.
+- Perhitungan Akurat: Menggunakan rumus Mifflin-St Jeor untuk BMR, yang dianggap lebih akurat dibandingkan rumus lama.
 
-Penyesuaian TDEE: Hasil BMR disesuaikan dengan level aktivitas (Sedentari, Ringan, Sedang, Berat, Sangat Berat) untuk mendapatkan TDEE.
+- Penyesuaian TDEE: Hasil BMR disesuaikan dengan level aktivitas (Sedentari, Ringan, Sedang, Berat, Sangat Berat) untuk mendapatkan TDEE.
 
-Validasi Input: Menangani error dan memberikan peringatan jika input yang dimasukkan tidak valid (bukan angka atau angka negatif).
+- Validasi Input: Menangani error dan memberikan peringatan jika input yang dimasukkan tidak valid (bukan angka atau angka negatif).
 
-UI Modern: Menggunakan CustomTkinter untuk tampilan yang bersih, flat design, dan responsif terhadap tema sistem (gelap/terang).
+- UI Modern: Menggunakan CustomTkinter untuk tampilan yang bersih, flat design, dan responsif terhadap tema sistem (gelap/terang).
 
 🛠️ Teknologi yang Digunakan
 
-Bahasa Pemrograman: Python
+- Bahasa Pemrograman: Python
 
-Antarmuka Pengguna (GUI): CustomTkinter (Ekstensi modern dari Tkinter)
+- Antarmuka Pengguna (GUI): CustomTkinter (Ekstensi modern dari Tkinter)
 
-Pengemasan (Opsional): PyInstaller (untuk membuat file .exe mandiri)
+- Pengemasan (Opsional): PyInstaller (untuk membuat file .exe mandiri)
 
 🚀 Cara Menjalankan Aplikasi
 
@@ -28,23 +28,27 @@ Ikuti langkah-langkah berikut untuk mengunduh dan menjalankan aplikasi ini secar
 
 1. Kloning Repositori
 
-git clone [https://github.com/USERNAME_ANDA/NAMA_REPOS_ANDA.git](https://github.com/USERNAME_ANDA/NAMA_REPOS_ANDA.git)
-cd NAMA_REPOS_ANDA
+```
+git clone https://github.com/khanifnaufal/CalorieApp.git
+cd CALORIE_APP
+```
 
 
 2. Instalasi Dependensi
 
 Proyek ini hanya membutuhkan customtkinter.
 
+```
 pip install customtkinter
-
+```
 
 3. Eksekusi Aplikasi
 
 Jalankan file utama gui_app.py di terminal Anda:
 
+```
 python gui_app.py
-
+```
 
 📦 Mengemas Menjadi File .EXE (Windows)
 
@@ -52,28 +56,18 @@ Jika Anda ingin membuat file executable yang dapat dijalankan tanpa perlu mengin
 
 1. Instal PyInstaller
 
+```
 pip install pyinstaller
-
+```
 
 2. Kompilasi
 
 Jalankan perintah pengemasan dari direktori proyek:
 
+```
 pyinstaller --onefile --windowed gui_app.py
+```
 
-
-3. Lokasi File
-
-File .exe akan tersedia di dalam folder dist/. File ini tidak diunggah ke GitHub, melainkan bisa dibagikan melalui GitHub Releases.
-
-📂 Struktur Proyek
-
-Calorie_App_Repo/
-├── calculator.py    # Logika perhitungan inti (BMR & TDEE)
-├── gui_app.py       # Antarmuka Pengguna (CustomTkinter)
-├── requirements.txt # Daftar library yang dibutuhkan
-├── .gitignore       # Mencegah upload file besar (build/ dan dist/)
-└── README.md        # (Anda sedang membacanya)
 
 
 Dibuat dengan ❤️ oleh [Nama/Username Anda]
