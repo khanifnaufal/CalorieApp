@@ -70,4 +70,4 @@ pyinstaller --onefile --windowed gui_app.py
 
 
 
-Dibuat dengan ❤️ oleh [Nama/Username Anda]
+Dibuat dengan ❤️ oleh KhanifNaufal
